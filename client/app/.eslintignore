@@ -1,0 +1,7 @@
+.github
+/build
+/node_modules
+/public
+tailwind.config.js
+**/*.js
+**/*.jsx

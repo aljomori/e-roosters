@@ -1,0 +1,17 @@
+.github
+/build
+/node_modules
+**/*.js
+**/*.jsx
+/src/env.d.ts
+.editorconfig
+.eslintrc
+.gitignore
+
+*.env
+*.json
+*.lock
+*.log
+*.md
+*.sh
+*.yml

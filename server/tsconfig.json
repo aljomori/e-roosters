@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",                  // Transpila a la última versión de ECMAScript
+    "module": "esnext",                  // Utiliza el sistema de módulos ES
+    "strict": true,                      // Habilita todas las opciones estrictas
+    "esModuleInterop": true,             // Permite importar módulos CommonJS
+    "skipLibCheck": true,                // Omite la verificación de tipos en archivos de declaración
+    "forceConsistentCasingInFileNames": true, // Obliga a que los nombres de archivos sean consistentes en cuanto a mayúsculas y minúsculas
+    "moduleResolution": "node",          // Usa la resolución de módulos de Node.js
+    "allowJs": true,                     // Permite archivos JS en el proyecto
+    "noEmit": true,                      // No emite archivos de salida (útil si Bun.js está ejecutando el TS directamente)
+    "baseUrl": ".",                      // Permite importar módulos relativos al directorio base
+    "paths": {                           // Puedes definir aquí rutas de alias
+      "*": ["node_modules/*"]
+    }
+  },
+  "include": ["**/*.ts"],                // Incluye todos los archivos TypeScript en el proyecto
+  "exclude": ["node_modules"]            // Excluye el directorio node_modules
+}
